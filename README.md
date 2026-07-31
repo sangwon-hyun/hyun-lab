@@ -18,7 +18,7 @@ The organizational center of the Hyun group's various procedures.
 
 | Researcher          | Role                                        | 
 | ---                 | ---                                         |
-| Jacob Bien          | Justin's Postdoctoral Advisor               |
+| Jacob Bien          | Dr Hyun's Postdoctoral Advisor              |
 | Francois Ribalet    | Longtime Collaborator in Oceanography       |
 
 # Software
