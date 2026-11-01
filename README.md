@@ -1,25 +1,31 @@
 # Hyun Lab
 
-The organizational center of the Hyun group's various procedures.
+The organizational center of the Hyun group's various procedures. 
 
-# Members
+The group website is here ([link](sangwon-hyun.org)), and current/past members
+are listed [here](https://sangwon-hyun.org/posts/group/).
 
-<!-- TODO: embed links to people's websites -->
+<!-- # Members -->
 
-| Member                 | Role                     | 
-| ---                    | ---                      | 
-| Sangwon (Justin) Hyun  | PI                       | 
-| Riddhiman Bhattacharya | Postdoctoral Researcher | 
-| Ethan Pawl             | PhD Student              |
-| Ziyue (Patrick) Zheng  | PhD Student              |
-| Dane Pearson           | Undergraduate Student    | 
+<!-- <\!-- TODO: embed links to people's websites -\-> -->
 
-## Honorary Members 
+<!-- | Member                 | Role                     |  -->
+<!-- | ---                    | ---                      |  -->
+<!-- | Sangwon (Justin) Hyun  | PI                       |  -->
+<!-- | Riddhiman Bhattacharya | Postdoctoral Researcher |  -->
+<!-- | Ethan Pawl             | PhD Student              | -->
+<!-- | Ziyue (Patrick) Zheng  | PhD Student              | -->
+<!-- | Dane Pearson           | Undergraduate Student    |  -->
+<!-- | Trisha Dawn           | Postdoctoral Researcher    |  -->
+<!-- | Parul Patil | Postdoctoral Researcher | -->
 
-| Researcher          | Role                                        | 
-| ---                 | ---                                         |
-| Jacob Bien          | Dr Hyun's Postdoctoral Advisor              |
-| Francois Ribalet    | Longtime Collaborator in Oceanography       |
+<!-- ## Honorary Members  -->
+
+<!-- | Researcher          | Role                                        |  -->
+<!-- | ---                 | ---                                         | -->
+<!-- | Jacob Bien          | Dr Hyun's Postdoctoral Advisor              | -->
+<!-- | Francois Ribalet    | Longtime Collaborator in Oceanography       | -->
+
 
 # Software
 
@@ -37,9 +43,18 @@ The organizational center of the Hyun group's various procedures.
 - [`process-data`](https://github.com/sangwon-hyun/process-data)
 - [`cruisedat`](https://github.com/sangwon-hyun/cruisedat/)
 
-# Computational Resources We Use
+
+# Computational Resources
 
 - [UCSC Hummingbird](https://hummingbird.ucsc.edu/)
 - [ACCESS](https://access-ci.org/)
+- [Access guide]() Not written yet.
+- [How to run jobs on server](./scripts)
+
+
+# Miscellaneous
+
+- [How to add/modify ucsc user group](./misc/add-users-to-group.org)
+
 
 <!-- TODO: add papers -->

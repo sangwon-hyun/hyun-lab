@@ -1,0 +1,33 @@
+Rion Parsons writes on 8/8/2026:
+
+While we can definitely add users to your group for you, this is also something
+you are empowered to do without needing our assistance. All groups we use on the
+Elkhorn and Hummingbird clusters are managed via our CruzID manager system. Here
+is the basic process:
+
+Go to https://cruzid.ucsc.edu and log in. Then,
+
+1. Click on 'Advanced' in the menu bar, and navigate to the 'Group Management'
+   page.
+
+2. Scroll down through the list of groups you are a member of and click on the
+   group you're interested in modifying. Names in blue that you can click are
+   groups you are a manager of. Groups in black are ones where you are only a
+   member. The group you want in this case is hb-hyunlab.
+
+3. Click the + next to 'Group Members', and then start typing the CruzID of the
+   user you want to add in the text box. IMPORTANT: this is an autocompletion
+   box - you want to be sure that the person you want to add shows up and then
+   click that entry! Just typing their CruzID and hitting 'Add' without allowing
+   the autocompletiion to work will result in a failed attempt.
+
+4. You can repeat this process one-at-a-time for each group member. If you had
+   many group members to add at once, you can also use the 'Bulk Add'
+   option. With the Bulk Add, you will type each CruzID separated by commas. You
+   do NOT need to wait for the autocompletiions when adding members this way.
+
+5. If you run into any issues or need additional help getting this working,
+   please let me know. We prefer to have our faculty self-manager their groups
+   as much as possible as you know when people come and leave, and so you know
+   when access needs to be granted or removed, especially if there is an
+   imperative nature to the process.
