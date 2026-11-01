@@ -49,8 +49,15 @@ are listed [here](https://sangwon-hyun.org/posts/group/).
 - [UCSC Hummingbird](https://hummingbird.ucsc.edu/)
 - [ACCESS](https://access-ci.org/)
 - [Access guide]() Not written yet.
-- [How to run jobs on server](./scripts)
+- [Server Access and File Transfer Quick Guide](./misc/Server_Instructions_UCSC.pdf)
+- [Example of how to run parallel jobs on server](./scripts)
 
+
+# Literature
+
+- [Flow cytometry](./lit)
+- [Metabolic rate estimation]()
+- [Metabolic rate estimation]()
 
 # Miscellaneous
 

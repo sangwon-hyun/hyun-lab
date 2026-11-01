@@ -1,20 +1,27 @@
 <!-- TODO: instead of just DOIs, have entire BibTeX entries -->
 
-# Published by Lab Members
+# Published by Group
 
-- [flowmix](https://doi.org/10.1214/22-AOAS1631)
+- [Flowmix](https://doi.org/10.1214/22-AOAS1631)
 - [Nonlinear flowmix](https://doi.org/10.48550/arXiv.2507.01375)
-- [flowtrend](https://doi.org/10.48550/arXiv.2504.12287)
-- [flowkernel](https://doi.org/10.48550/arXiv.2510.06051)
+- [Flowtrend](https://doi.org/10.48550/arXiv.2504.12287)
+- [Flowcut]() 
+- [Debiased Flowmix]() 
 
 # Model-Based Clustering of Flow Cytometry
 
+- [Flowkernel](https://doi.org/10.48550/arXiv.2510.06051)
 - [Mixtures of skew t (Pyne)](https://doi.org/10.1371/journal.pone.0100334)
 - [Mixtures of skew t (Lee)](https://doi.org/10.1002/cyto.a.22789)
 - [DP Mixture of Gaussians (Cron)](https://doi.org/10.1371/journal.pcbi.1003130)
 - [DP Mixture of Gaussians (Dundar)](https://doi.org/10.1186/1471-2105-15-314)
 - [DP Mixture of Gaussians (Soriano)](https://doi.org/10.1214/18-BA1106)
 - [DP Mixture of skew t](https://doi.org/10.1214/18-AOAS1209)
+
+# Flow cytometry 
+
+- [Mixture modeling for general flow cytometry](https://pubmed.ncbi.nlm.nih.gov/18307272/)
+  - [software](https://github.com/RGLab/flowClust)
 
 # Related Methodologies
 
