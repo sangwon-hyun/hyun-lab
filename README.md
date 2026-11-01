@@ -55,9 +55,11 @@ are listed [here](https://sangwon-hyun.org/posts/group/).
 
 # Literature
 
-- [Flow cytometry](./lit)
+- [Flow cytometry](./literature/flow_cytometry_literature.md)
 - [Metabolic rate estimation]()
-- [Metabolic rate estimation]()
+- [Spatial Proteomics]()
+- [Metabarcoding data analysis]()
+- [Changepoint detection/inference]()
 
 # Miscellaneous
 
