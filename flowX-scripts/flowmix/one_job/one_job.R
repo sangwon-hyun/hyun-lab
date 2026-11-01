@@ -3,6 +3,7 @@ library(magrittr)
 
 DATA_FILE <- file.path("data", "MGL1704-hourly-paper.RDS")
 DESTIN <- "results"
+SEEDDIR <- "seedtabs"
 SEEDFILE <- "seedtab.csv"
 
 args <- commandArgs(trailingOnly = TRUE)
@@ -61,13 +62,16 @@ if(cv_step == "maxlam") {
     prob_lambdas, 
     file = file.path(DESTIN, "meta.Rdata")
   )
+
+  seedtab <- make_seedtab(cv_gridsize, nfold, nrep, SEEDDIR, SEEDFILE)
+
 } else if(cv_step == "cv") {
   folds <- make_cv_folds(ylist, nfold, blocksize)
 
   load(file.path(DESTIN, "prob_lambdas.RData"))
   load(file.path(DESTIN, "mean_lambdas.RData"))
 
-  seedtab <- read.csv(SEEDFILE)
+  seedtab <- read.csv(file.path(SEEDDIR, SEEDFILE))
 
   iimat <- make_iimat(
     cv_gridsize, 
@@ -98,7 +102,7 @@ if(cv_step == "maxlam") {
   load(file.path(DESTIN, "prob_lambdas.RData"))
   load(file.path(DESTIN, "mean_lambdas.RData"))
 
-  seedtab <- read.csv(SEEDFILE)
+  seedtab <- read.csv(file.path(SEEDDIR, SEEDFILE))
 
   iimat_small <- make_iimat_small(cv_gridsize)
   job <- iimat_small[arraynum,]

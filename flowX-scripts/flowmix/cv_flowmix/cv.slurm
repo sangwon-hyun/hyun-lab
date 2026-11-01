@@ -3,6 +3,12 @@
 # Example of a SLURM script which can be 
 # used to run the simulations
 
+# You may want to change some of these settings. For example,
+#   - increase --cpus-per-task for more parallelization.
+#   - Put your email in --mail-user to get notified of changes in job status
+#   - use partition, account, and qos to make sure you're using the proper 
+#   - resource allocation
+
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1

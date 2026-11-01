@@ -1,5 +1,6 @@
 # Find which indices in the SLURM array failed so they can be rerun 
 DESTIN <- "results"
+
 cv_gridsize <- 10
 nfold <- 5 
 nrep <- 10

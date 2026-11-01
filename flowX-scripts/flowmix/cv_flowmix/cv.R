@@ -5,11 +5,12 @@ library(magrittr)
 
 # Set filepaths for data and outputs
 DATA_FILE <- file.path("data", "MGL1704-hourly-paper.RDS")
+SEEDDIR <- "seedtabs"
 SEEDFILE <- "seedtab.csv"
 DESTIN <- "results"
 
-# Parallelization
-mc.cores <- max(availablesCores() - 1, 1)
+# Parallelization - how many cores? (Limited to a single node on HPC)
+mc.cores <- max(availableCores() - 1, 1)
 
 # Prevent BLAS multithreading from competing with mclapply
 blas_set_num_threads(1)
@@ -35,8 +36,8 @@ nrep <- 10
 datobj <- readRDS(file = DATA_FILE)
 datobj %>% list2env(envir = .GlobalEnv) %>% invisible()
 
-# For reproducibility
-seedtab <- read.csv(SEEDFILE)
+# Set random seeds and save them to a file for reproducibility
+seedtab <- make_seedtab(cv_gridsize, nfold, nrep, SEEDDIR, SEEDFILE)
 
 if(!dir.exists(DESTIN)) dir.create(DESTIN)
 
@@ -96,14 +97,14 @@ cv.flowmix(
   iimat = NULL, 
   maxdev = maxdev, 
   numclust = numclust, 
-  nfold = nfold, # I believe if refit = TRUE this is ignored, but not certain
+  nfold = nfold, # I believe this is ignored if refit = TRUE, but not certain, so specify just in case
   nrep = nrep, 
   verbose = TRUE, 
   refit = TRUE, 
   save_meta = FALSE, 
   mc.cores = mc.cores, 
-  blocksize = blocksize, # I believe if refit = TRUE this is ignored, but not certain
-  folds = folds, # I believe if refit = TRUE this is ignored, but not certain
+  blocksize = blocksize, # I believe this is ignored if refit = TRUE, but not certain, so specify just in case
+  folds = folds, # I believe this is ignored if refit = TRUE, but not certain, so specify just in case
   seedtab = seedtab
 )
 
